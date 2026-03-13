@@ -1,36 +1,164 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+EstateFlow – Real Estate CRM Dashboard Template
 
-## Getting Started
+EstateFlow is a modern Real Estate CRM Dashboard UI Template built with Next.js, Tailwind CSS, and shadcn/ui.
+It is designed for real estate agencies, CRM platforms, SaaS dashboards, and admin panels.
 
-First, run the development server:
+The template provides a clean and scalable UI structure for building lead management and property management systems.
 
-```bash
+Features
+
+• Modern SaaS dashboard UI
+• Real Estate Lead Management
+• Team & Member Management
+• Social Media Lead Integrations (Instagram & Facebook UI)
+• Analytics Dashboard with Charts
+• Responsive Layout
+• Built with reusable components
+• TypeScript support
+• Clean project structure
+
+Tech Stack
+
+This template is built with modern web technologies:
+
+Next.js – React framework for production apps
+
+React – UI library
+
+Tailwind CSS – Utility-first CSS framework
+
+shadcn/ui – Modern component system
+
+Recharts – Chart library for dashboards
+
+TypeScript – Static type support
+
+Installation
+1️⃣ Extract the template
+
+Download and extract the template zip file.
+
+Example folder structure:
+
+real-estate-crm-template
+2️⃣ Install dependencies
+
+Open terminal inside the project folder and run:
+
+npm install
+
+This will install all required dependencies.
+
+3️⃣ Run the development server
+
+Start the project:
+
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Open your browser and go to:
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+http://localhost:3000
+Production Build
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+To build the project for production:
 
-## Learn More
+npm run build
 
-To learn more about Next.js, take a look at the following resources:
+Then start the production server:
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+npm start
+Project Structure
+src
+ ├── app
+ │   ├── dashboard
+ │   ├── leads
+ │   ├── teams
+ │   ├── members
+ │   ├── integrations
+ │   └── settings
+ │
+ ├── components
+ │   ├── ui
+ │   └── layouts
+ │
+ ├── lib
+ │   └── mock-data.ts
+ │
+ └── styles
+Pages Included
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+• Dashboard
+• Leads Management
+• Add Lead Form
+• Teams Management
+• Members Management
+• Integrations (Instagram & Facebook UI)
+• Workspace Settings
 
-## Deploy on Vercel
+Customization
+Update Mock Data
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+You can update demo data inside:
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+src/lib/mock-data.ts
+Add New Pages
+
+Create new pages inside:
+
+src/app
+
+Example:
+
+src/app/properties/page.tsx
+Modify UI Components
+
+Reusable UI components are located in:
+
+src/components
+Deployment
+
+You can deploy this project easily using:
+
+Vercel
+
+Netlify
+
+AWS
+
+DigitalOcean
+
+Recommended platform for Next.js:
+
+Vercel
+
+Preparing Template for Marketplace
+
+Before uploading this template to marketplaces like ThemeForest, remove the following folders:
+
+node_modules
+.next
+.git
+
+The buyer will reinstall dependencies using:
+
+npm install
+Requirements
+
+To run this template you need:
+
+Node.js 18+
+npm or yarn
+License
+
+This template can be used for personal and commercial projects.
+
+Support
+
+If you encounter issues while installing or running the template, please check:
+
+npm install
+npm run dev
+Author
+
+EstateFlow CRM Dashboard Template
+Built for modern SaaS and Real Estate platforms.
